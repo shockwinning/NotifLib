@@ -5,7 +5,7 @@ not mine but yes i edited it
 -- >> Discord: https://discord.gg/GbgtPjwbQe
 
 getgenv().NordConfig = { ["Theme"] = "Discord" }
-local Nord = loadstring(game:HttpGetAsync("", true))();
+local Nord = loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/shockwinning/NotifLib/main/NordNotif.lua", true))();
 Nord:Notify(nil, "Loadstring worked successfully!", "success", 3);
 ]]
 
